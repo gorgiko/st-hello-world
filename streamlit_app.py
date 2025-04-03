@@ -117,15 +117,13 @@ def fix_image(upload):
 
 # UI Layout
 col1, col2 = st.columns(2)
-my_upload = st.sidebar.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+my_upload = st.sidebar.file_uploader("Upload an PDF/image", type=["pdf","png", "jpg", "jpeg"])
 
 # Information about limitations
-with st.sidebar.expander("ℹ️ Image Guidelines"):
+with st.sidebar.expander("ℹ️ Guidelines"):
     st.write("""
     - Maximum file size: 10MB
-    - Large images will be automatically resized
-    - Supported formats: PNG, JPG, JPEG
-    - Processing time depends on image size
+    - Supported formats: PDF,PNG, JPG, JPEG
     """)
 
 # Process the image
