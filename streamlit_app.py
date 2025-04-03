@@ -140,4 +140,4 @@ else:
             fix_image(img_path)
             break
     else:
-        st.info("Please upload an image to get started!")
+        st.info("Please upload a file to get started!")
