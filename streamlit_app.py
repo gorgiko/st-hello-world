@@ -13,7 +13,7 @@ st.write("## Test sajt")
 st.write(
     ":dog: This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) :grin:"
 )
-st.sidebar.write("## Upload and download :gear:")
+st.sidebar.write("## Upload PDF/image :gear:")
 
 # Increased file size limit
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
