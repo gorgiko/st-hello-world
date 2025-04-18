@@ -13,7 +13,7 @@ st.write("## Тест сајт")
 st.write(
  #   ":dog: This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) :grin:"
 )
-st.sidebar.write("## Прикачете слика/ПДФ :invoice:")
+st.sidebar.write("## Прикачете слика/ПДФ :document:")
 
 # Increased file size limit
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
